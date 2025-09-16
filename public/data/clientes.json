@@ -1,0 +1,41 @@
+[
+    {
+        "id": "11",
+        "nombre": "juani",
+        "apellido": "mu\u00f1os",
+        "dni": "6879081",
+        "telefono": "3446-554423",
+        "domicilio": "hjk",
+        "fechaNac": "2025-09-16",
+        "fechaRegistro": "2025-09-16 12:46:26",
+        "ultimoPago": null,
+        "diasSinPago": "0",
+        "estado": "activo"
+    },
+    {
+        "id": "12",
+        "nombre": "liam",
+        "apellido": "neeson",
+        "dni": "1234455",
+        "telefono": "03446121354",
+        "domicilio": "ggggg",
+        "fechaNac": "2025-09-16",
+        "fechaRegistro": "2025-09-16 12:49:56",
+        "ultimoPago": null,
+        "diasSinPago": "0",
+        "estado": "activo"
+    },
+    {
+        "id": "13",
+        "nombre": "willian",
+        "apellido": "g",
+        "dni": "32444778",
+        "telefono": "123456783222",
+        "domicilio": "jjjjj",
+        "fechaNac": "2025-09-02",
+        "fechaRegistro": "2025-09-16 12:57:36",
+        "ultimoPago": null,
+        "diasSinPago": "0",
+        "estado": "activo"
+    }
+]
