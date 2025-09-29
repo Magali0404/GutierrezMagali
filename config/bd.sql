@@ -42,3 +42,15 @@ CREATE TABLE Reserva (
 INSERT INTO Rol (id_rol, nombre_rol) VALUES
 (1, 'Administrador'),
 (2, 'Usuario');
+
+--creamos un admin
+INSERT INTO Usuarios (nombre, apellido, DNI, email, telefono, contraseña, id_rol)
+VALUES (
+    'Giuliana',
+    'Romero',
+    '45334221',
+    'admin@admin.com',
+    '3446220128',
+    'admin123',
+    1
+);

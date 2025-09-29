@@ -1,7 +1,7 @@
 <?php
 class Database {
     private $host = "localhost";
-    private $db = "reservas";  // tu base de datos
+    private $db = "reservas";  
     private $user = "root";
     private $pass = "";
     private $charset = "utf8mb4";

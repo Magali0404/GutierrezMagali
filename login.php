@@ -2,15 +2,15 @@
 require_once "clases/User.php";
 session_start();
 
-$mensaje = "";
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $user = new User();
     $resultado = $user->login($_POST['email'], $_POST['password']);
 
     if ($resultado) {
         $_SESSION['usuario'] = $resultado;  // Guardás los datos del usuario en sesión
-        $mensaje = "¡Bienvenido, " . htmlspecialchars($resultado['nombre']) . "!";
+        // Redireccionar a la página principal
+        header("Location: principal.php");
+        exit;
     } else {
         $mensaje = "Correo o contraseña incorrectos.";
     }
@@ -40,8 +40,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <input type="submit" value="Ingresar">
     </form>
-
-    <p>¿No tenés cuenta? <a href="index.php">Registrate</a></p>
-
 </body>
 </html>

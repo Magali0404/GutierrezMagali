@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../config/Database.php'; // Corrección de ruta
+require_once __DIR__ . '/../config/Database.php'; 
 
 class User {
     private $db;
